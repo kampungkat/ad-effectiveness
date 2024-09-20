@@ -1,0 +1,37 @@
+{
+  "id": "kampungkat/ad-detect-test-images",
+  "id_no": 5652948,
+  "datasetSlugNullable": "ad-detect-test-images",
+  "ownerUserNullable": "kampungkat",
+  "usabilityRatingNullable": 0.125,
+  "titleNullable": "ad_detect_test_images",
+  "subtitleNullable": "",
+  "descriptionNullable": "",
+  "datasetId": 5652948,
+  "datasetSlug": "ad-detect-test-images",
+  "hasDatasetSlug": true,
+  "ownerUser": "kampungkat",
+  "hasOwnerUser": true,
+  "usabilityRating": 0.125,
+  "hasUsabilityRating": true,
+  "totalViews": 1,
+  "totalVotes": 0,
+  "totalDownloads": 0,
+  "title": "ad_detect_test_images",
+  "hasTitle": true,
+  "subtitle": "",
+  "hasSubtitle": true,
+  "description": "",
+  "hasDescription": true,
+  "isPrivate": true,
+  "keywords": [],
+  "licenses": [
+    {
+      "nameNullable": "unknown",
+      "name": "unknown",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}

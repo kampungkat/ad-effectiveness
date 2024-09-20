@@ -1,0 +1,23 @@
+{
+  "id": "kampungkat/ad-detection",
+  "id_no": 65641195,
+  "title": "ad_detection",
+  "code_file": "ad-detection.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "kampungkat/ad-detect-test-images"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [
+    "kampungkat/ad_detection_yolov8/PyTorch/default/1"
+  ]
+}

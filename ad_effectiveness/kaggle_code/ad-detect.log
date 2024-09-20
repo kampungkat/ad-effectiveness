@@ -1,0 +1,135 @@
+[{"stream_name":"stdout","time":9.166113767,"data":"Collecting ultralytics\r\n"}
+,{"stream_name":"stdout","time":9.217229239,"data":"  Downloading ultralytics-8.2.89-py3-none-any.whl.metadata (41 kB)\r\n"}
+,{"stream_name":"stdout","time":9.26865508,"data":"\u001b[?25l     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/41.9 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m41.9/41.9 kB\u001b[0m \u001b[31m1.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":9.319892506,"data":"\u001b[?25hRequirement already satisfied: numpy\u003c2.0.0,\u003e=1.23.0 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (1.26.4)\r\n"}
+,{"stream_name":"stdout","time":9.319930041,"data":"Requirement already satisfied: matplotlib\u003e=3.3.0 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (3.7.5)\r\n"}
+,{"stream_name":"stdout","time":9.319939676,"data":"Requirement already satisfied: opencv-python\u003e=4.6.0 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (4.10.0.84)\r\n"}
+,{"stream_name":"stdout","time":9.319948021,"data":"Requirement already satisfied: pillow\u003e=7.1.2 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (9.5.0)\r\n"}
+,{"stream_name":"stdout","time":9.319968221,"data":"Requirement already satisfied: pyyaml\u003e=5.3.1 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (6.0.2)\r\n"}
+,{"stream_name":"stdout","time":9.319973255,"data":"Requirement already satisfied: requests\u003e=2.23.0 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (2.32.3)\r\n"}
+,{"stream_name":"stdout","time":9.319978685,"data":"Requirement already satisfied: scipy\u003e=1.4.1 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (1.14.0)\r\n"}
+,{"stream_name":"stdout","time":9.319983929,"data":"Requirement already satisfied: torch\u003e=1.8.0 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (2.4.0)\r\n"}
+,{"stream_name":"stdout","time":9.319988616,"data":"Requirement already satisfied: torchvision\u003e=0.9.0 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (0.19.0)\r\n"}
+,{"stream_name":"stdout","time":9.319993189,"data":"Requirement already satisfied: tqdm\u003e=4.64.0 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (4.66.4)\r\n"}
+,{"stream_name":"stdout","time":9.31999839,"data":"Requirement already satisfied: psutil in /opt/conda/lib/python3.10/site-packages (from ultralytics) (5.9.3)\r\n"}
+,{"stream_name":"stdout","time":9.320003116,"data":"Requirement already satisfied: py-cpuinfo in /opt/conda/lib/python3.10/site-packages (from ultralytics) (9.0.0)\r\n"}
+,{"stream_name":"stdout","time":9.320008191,"data":"Requirement already satisfied: pandas\u003e=1.1.4 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (2.2.2)\r\n"}
+,{"stream_name":"stdout","time":9.320012988,"data":"Requirement already satisfied: seaborn\u003e=0.11.0 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (0.12.2)\r\n"}
+,{"stream_name":"stdout","time":9.371041957,"data":"Collecting ultralytics-thop\u003e=2.0.0 (from ultralytics)\r\n"}
+,{"stream_name":"stdout","time":9.371098968,"data":"  Downloading ultralytics_thop-2.0.6-py3-none-any.whl.metadata (9.1 kB)\r\n"}
+,{"stream_name":"stdout","time":9.422306171,"data":"Requirement already satisfied: contourpy\u003e=1.0.1 in /opt/conda/lib/python3.10/site-packages (from matplotlib\u003e=3.3.0-\u003eultralytics) (1.2.1)\r\n"}
+,{"stream_name":"stdout","time":9.422348052,"data":"Requirement already satisfied: cycler\u003e=0.10 in /opt/conda/lib/python3.10/site-packages (from matplotlib\u003e=3.3.0-\u003eultralytics) (0.12.1)\r\n"}
+,{"stream_name":"stdout","time":9.422373787,"data":"Requirement already satisfied: fonttools\u003e=4.22.0 in /opt/conda/lib/python3.10/site-packages (from matplotlib\u003e=3.3.0-\u003eultralytics) (4.53.0)\r\n"}
+,{"stream_name":"stdout","time":9.422379655,"data":"Requirement already satisfied: kiwisolver\u003e=1.0.1 in /opt/conda/lib/python3.10/site-packages (from matplotlib\u003e=3.3.0-\u003eultralytics) (1.4.5)\r\n"}
+,{"stream_name":"stdout","time":9.422385349,"data":"Requirement already satisfied: packaging\u003e=20.0 in /opt/conda/lib/python3.10/site-packages (from matplotlib\u003e=3.3.0-\u003eultralytics) (21.3)\r\n"}
+,{"stream_name":"stdout","time":9.422390864,"data":"Requirement already satisfied: pyparsing\u003e=2.3.1 in /opt/conda/lib/python3.10/site-packages (from matplotlib\u003e=3.3.0-\u003eultralytics) (3.1.2)\r\n"}
+,{"stream_name":"stdout","time":9.422396889,"data":"Requirement already satisfied: python-dateutil\u003e=2.7 in /opt/conda/lib/python3.10/site-packages (from matplotlib\u003e=3.3.0-\u003eultralytics) (2.9.0.post0)\r\n"}
+,{"stream_name":"stdout","time":9.575907357,"data":"Requirement already satisfied: pytz\u003e=2020.1 in /opt/conda/lib/python3.10/site-packages (from pandas\u003e=1.1.4-\u003eultralytics) (2024.1)\r\n"}
+,{"stream_name":"stdout","time":9.575944168,"data":"Requirement already satisfied: tzdata\u003e=2022.7 in /opt/conda/lib/python3.10/site-packages (from pandas\u003e=1.1.4-\u003eultralytics) (2024.1)\r\n"}
+,{"stream_name":"stdout","time":9.626930952,"data":"Requirement already satisfied: charset-normalizer\u003c4,\u003e=2 in /opt/conda/lib/python3.10/site-packages (from requests\u003e=2.23.0-\u003eultralytics) (3.3.2)\r\n"}
+,{"stream_name":"stdout","time":9.626987119,"data":"Requirement already satisfied: idna\u003c4,\u003e=2.5 in /opt/conda/lib/python3.10/site-packages (from requests\u003e=2.23.0-\u003eultralytics) (3.7)\r\n"}
+,{"stream_name":"stdout","time":9.626996434,"data":"Requirement already satisfied: urllib3\u003c3,\u003e=1.21.1 in /opt/conda/lib/python3.10/site-packages (from requests\u003e=2.23.0-\u003eultralytics) (1.26.18)\r\n"}
+,{"stream_name":"stdout","time":9.627002481,"data":"Requirement already satisfied: certifi\u003e=2017.4.17 in /opt/conda/lib/python3.10/site-packages (from requests\u003e=2.23.0-\u003eultralytics) (2024.7.4)\r\n"}
+,{"stream_name":"stdout","time":9.729243855,"data":"Requirement already satisfied: filelock in /opt/conda/lib/python3.10/site-packages (from torch\u003e=1.8.0-\u003eultralytics) (3.15.1)\r\n"}
+,{"stream_name":"stdout","time":9.729286554,"data":"Requirement already satisfied: typing-extensions\u003e=4.8.0 in /opt/conda/lib/python3.10/site-packages (from torch\u003e=1.8.0-\u003eultralytics) (4.12.2)\r\n"}
+,{"stream_name":"stdout","time":9.729294617,"data":"Requirement already satisfied: sympy in /opt/conda/lib/python3.10/site-packages (from torch\u003e=1.8.0-\u003eultralytics) (1.13.2)\r\n"}
+,{"stream_name":"stdout","time":9.729299900000001,"data":"Requirement already satisfied: networkx in /opt/conda/lib/python3.10/site-packages (from torch\u003e=1.8.0-\u003eultralytics) (3.3)\r\n"}
+,{"stream_name":"stdout","time":9.729305263,"data":"Requirement already satisfied: jinja2 in /opt/conda/lib/python3.10/site-packages (from torch\u003e=1.8.0-\u003eultralytics) (3.1.4)\r\n"}
+,{"stream_name":"stdout","time":9.729310661,"data":"Requirement already satisfied: fsspec in /opt/conda/lib/python3.10/site-packages (from torch\u003e=1.8.0-\u003eultralytics) (2024.6.1)\r\n"}
+,{"stream_name":"stdout","time":9.933661755,"data":"Requirement already satisfied: six\u003e=1.5 in /opt/conda/lib/python3.10/site-packages (from python-dateutil\u003e=2.7-\u003ematplotlib\u003e=3.3.0-\u003eultralytics) (1.16.0)\r\n"}
+,{"stream_name":"stdout","time":10.138041329,"data":"Requirement already satisfied: MarkupSafe\u003e=2.0 in /opt/conda/lib/python3.10/site-packages (from jinja2-\u003etorch\u003e=1.8.0-\u003eultralytics) (2.1.5)\r\n"}
+,{"stream_name":"stdout","time":10.188728149,"data":"Requirement already satisfied: mpmath\u003c1.4,\u003e=1.1.0 in /opt/conda/lib/python3.10/site-packages (from sympy-\u003etorch\u003e=1.8.0-\u003eultralytics) (1.3.0)\r\n"}
+,{"stream_name":"stdout","time":10.240518876,"data":"Downloading ultralytics-8.2.89-py3-none-any.whl (871 kB)\r\n"}
+,{"stream_name":"stdout","time":10.291803152,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/871.7 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m870.4/871.7 kB\u001b[0m \u001b[31m39.1 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m871.7/871.7 kB\u001b[0m \u001b[31m18.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":10.291848555,"data":"\u001b[?25hDownloading ultralytics_thop-2.0.6-py3-none-any.whl (26 kB)\r\n"}
+,{"stream_name":"stdout","time":21.456837446,"data":"Installing collected packages: ultralytics-thop, ultralytics\r\n"}
+,{"stream_name":"stdout","time":22.068260903,"data":"Successfully installed ultralytics-8.2.89 ultralytics-thop-2.0.6\r\n"}
+,{"stream_name":"stdout","time":29.313370848,"data":"\n"}
+,{"stream_name":"stdout","time":31.449358452,"data":"image 1/13 /kaggle/input/ad-detect-test-images/test_images/desktop_cna.png: 320x640 1 ad_rectangle, 1 ad_square, 1 ad_vertical, 88.0ms\n"}
+,{"stream_name":"stdout","time":31.769634436,"data":"image 2/13 /kaggle/input/ad-detect-test-images/test_images/desktop_g4g1.png: 352x640 1 ad_rectangle, 1 ad_square, 1 ad_vertical, 38.1ms\n"}
+,{"stream_name":"stdout","time":32.125451401,"data":"image 3/13 /kaggle/input/ad-detect-test-images/test_images/desktop_mothership1.png: 352x640 1 ad_rectangle, 1 ad_vertical, 7.9ms\n"}
+,{"stream_name":"stdout","time":32.423430602,"data":"image 4/13 /kaggle/input/ad-detect-test-images/test_images/desktop_straitstimes.png: 352x640 2 ad_rectangles, 7.6ms\n"}
+,{"stream_name":"stdout","time":32.529250478,"data":"image 5/13 /kaggle/input/ad-detect-test-images/test_images/mobile_bbc1.png: 640x320 1 ad_rectangle, 38.0ms\n"}
+,{"stream_name":"stdout","time":32.597184145,"data":"image 6/13 /kaggle/input/ad-detect-test-images/test_images/mobile_g4g2.png: 640x320 1 ad_square, 7.5ms\n"}
+,{"stream_name":"stdout","time":32.691016212,"data":"image 7/13 /kaggle/input/ad-detect-test-images/test_images/mobile_independent.png: 640x320 2 ad_rectangles, 7.5ms\n"}
+,{"stream_name":"stdout","time":32.787096699,"data":"image 8/13 /kaggle/input/ad-detect-test-images/test_images/mobile_independent2.png: 640x320 (no detections), 8.2ms\n"}
+,{"stream_name":"stdout","time":32.882587272,"data":"image 9/13 /kaggle/input/ad-detect-test-images/test_images/mobile_independent3.png: 640x320 4 ad_rectangles, 8.6ms\n"}
+,{"stream_name":"stdout","time":32.967046348,"data":"image 10/13 /kaggle/input/ad-detect-test-images/test_images/mobile_mothership1.png: 640x320 1 ad_rectangle, 7.8ms\n"}
+,{"stream_name":"stdout","time":33.041628662,"data":"image 11/13 /kaggle/input/ad-detect-test-images/test_images/mobile_sarkari.png: 640x320 1 ad_rectangle, 7.7ms\n"}
+,{"stream_name":"stdout","time":33.116097171,"data":"image 12/13 /kaggle/input/ad-detect-test-images/test_images/mobile_soranews24.png: 640x320 1 ad_vertical, 7.8ms\n"}
+,{"stream_name":"stdout","time":33.171981642,"data":"image 13/13 /kaggle/input/ad-detect-test-images/test_images/mobile_theverge1.png: 640x320 (no detections), 7.4ms\n"}
+,{"stream_name":"stdout","time":33.173376958,"data":"Speed: 2.9ms preprocess, 18.6ms inference, 20.6ms postprocess per image at shape (1, 3, 640, 320)\n"}
+,{"stream_name":"stdout","time":33.174735657,"data":"Results saved to \u001b[1mruns/detect/predict\u001b[0m\n"}
+,{"stream_name":"stdout","time":33.174768721,"data":"11 labels saved to runs/detect/predict/labels\n"}
+,{"stream_name":"stdout","time":33.596515265,"data":"\n"}
+,{"stream_name":"stdout","time":33.596553346,"data":"Contents of desktop_mothership1.txt:\n"}
+,{"stream_name":"stdout","time":33.596563516,"data":"\n"}
+,{"stream_name":"stdout","time":33.596576957,"data":"2 0.697189 0.724726 0.171924 0.537511\n"}
+,{"stream_name":"stdout","time":33.59658334,"data":"0 0.498984 0.253958 0.550611 0.282791\n"}
+,{"stream_name":"stdout","time":33.596588086,"data":"\n"}
+,{"stream_name":"stdout","time":33.59659239,"data":"\n"}
+,{"stream_name":"stdout","time":33.596597172,"data":"Contents of desktop_g4g1.txt:\n"}
+,{"stream_name":"stdout","time":33.596602106,"data":"\n"}
+,{"stream_name":"stdout","time":33.596606978,"data":"2 0.896017 0.398186 0.170914 0.682939\n"}
+,{"stream_name":"stdout","time":33.596611688,"data":"0 0.897352 0.871739 0.169077 0.251191\n"}
+,{"stream_name":"stdout","time":33.596616617,"data":"1 0.896922 0.874767 0.171267 0.250168\n"}
+,{"stream_name":"stdout","time":33.596620762,"data":"\n"}
+,{"stream_name":"stdout","time":33.596625235,"data":"\n"}
+,{"stream_name":"stdout","time":33.596629778,"data":"Contents of desktop_cna.txt:\n"}
+,{"stream_name":"stdout","time":33.596634652,"data":"\n"}
+,{"stream_name":"stdout","time":33.596639799,"data":"0 0.502526 0.274488 0.550587 0.132476\n"}
+,{"stream_name":"stdout","time":33.596645954,"data":"2 0.774196 0.548485 0.176275 0.331978\n"}
+,{"stream_name":"stdout","time":33.596651171,"data":"1 0.774886 0.559247 0.174118 0.302479\n"}
+,{"stream_name":"stdout","time":33.596655992,"data":"\n"}
+,{"stream_name":"stdout","time":33.596660661,"data":"\n"}
+,{"stream_name":"stdout","time":33.596665277,"data":"Contents of mobile_sarkari.txt:\n"}
+,{"stream_name":"stdout","time":33.596670498,"data":"\n"}
+,{"stream_name":"stdout","time":33.596675236,"data":"0 0.504376 0.0688488 0.991248 0.137432\n"}
+,{"stream_name":"stdout","time":33.596680621,"data":"\n"}
+,{"stream_name":"stdout","time":33.596685613,"data":"\n"}
+,{"stream_name":"stdout","time":33.596690473,"data":"Contents of mobile_mothership1.txt:\n"}
+,{"stream_name":"stdout","time":33.596695393,"data":"\n"}
+,{"stream_name":"stdout","time":33.596700086,"data":"0 0.49732 0.142748 0.831002 0.0630374\n"}
+,{"stream_name":"stdout","time":33.596704993,"data":"\n"}
+,{"stream_name":"stdout","time":33.596709836,"data":"\n"}
+,{"stream_name":"stdout","time":33.59671452,"data":"Contents of desktop_straitstimes.txt:\n"}
+,{"stream_name":"stdout","time":33.596719421,"data":"\n"}
+,{"stream_name":"stdout","time":33.596724025,"data":"0 0.499953 0.23341 0.553819 0.294144\n"}
+,{"stream_name":"stdout","time":33.596729038,"data":"0 0.651573 0.728459 0.49168 0.518739\n"}
+,{"stream_name":"stdout","time":33.596734161,"data":"\n"}
+,{"stream_name":"stdout","time":33.596738825,"data":"\n"}
+,{"stream_name":"stdout","time":33.59674337,"data":"Contents of mobile_soranews24.txt:\n"}
+,{"stream_name":"stdout","time":33.596748118,"data":"\n"}
+,{"stream_name":"stdout","time":33.596770563,"data":"2 0.74357 0.43936 0.465455 0.306869\n"}
+,{"stream_name":"stdout","time":33.596775533,"data":"\n"}
+,{"stream_name":"stdout","time":33.596780222,"data":"\n"}
+,{"stream_name":"stdout","time":33.59678484,"data":"Contents of mobile_g4g2.txt:\n"}
+,{"stream_name":"stdout","time":33.596789758,"data":"\n"}
+,{"stream_name":"stdout","time":33.596794527,"data":"1 0.464595 0.659422 0.77021 0.295214\n"}
+,{"stream_name":"stdout","time":33.596799492,"data":"\n"}
+,{"stream_name":"stdout","time":33.596804141,"data":"\n"}
+,{"stream_name":"stdout","time":33.596808841,"data":"Contents of mobile_independent.txt:\n"}
+,{"stream_name":"stdout","time":33.596813575,"data":"\n"}
+,{"stream_name":"stdout","time":33.596819133,"data":"0 0.499895 0.944271 0.997912 0.104797\n"}
+,{"stream_name":"stdout","time":33.596824508,"data":"0 0.510207 0.0378662 0.786384 0.0757325\n"}
+,{"stream_name":"stdout","time":33.596829547,"data":"\n"}
+,{"stream_name":"stdout","time":33.596834238,"data":"\n"}
+,{"stream_name":"stdout","time":33.596838898,"data":"Contents of mobile_bbc1.txt:\n"}
+,{"stream_name":"stdout","time":33.596843721,"data":"\n"}
+,{"stream_name":"stdout","time":33.596848686,"data":"0 0.487434 0.135457 0.817854 0.0642331\n"}
+,{"stream_name":"stdout","time":33.596853628,"data":"\n"}
+,{"stream_name":"stdout","time":33.59685811,"data":"\n"}
+,{"stream_name":"stdout","time":33.59686283,"data":"Contents of mobile_independent3.txt:\n"}
+,{"stream_name":"stdout","time":33.59686768,"data":"\n"}
+,{"stream_name":"stdout","time":33.596872365,"data":"0 0.494632 0.152054 0.96344 0.140364\n"}
+,{"stream_name":"stdout","time":33.596877038,"data":"0 0.491278 0.950193 0.972853 0.0974148\n"}
+,{"stream_name":"stdout","time":33.596881998,"data":"0 0.492498 0.409896 0.971496 0.259087\n"}
+,{"stream_name":"stdout","time":33.59688692,"data":"0 0.488489 0.721448 0.976977 0.208711\n"}
+,{"stream_name":"stdout","time":33.596892069,"data":"\n"}
+,{"stream_name":"stderr","time":37.340445396,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":37.76946337,"data":"[NbConvertApp] Writing 124688 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":39.418340102,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":40.336423856,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":40.336468616,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":40.336888653,"data":"[NbConvertApp] Writing 288097 bytes to __results__.html\n"}
+]

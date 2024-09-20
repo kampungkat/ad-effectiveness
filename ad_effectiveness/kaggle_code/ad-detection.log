@@ -1,0 +1,57 @@
+[{"stream_name":"stdout","time":9.067169043,"data":"Collecting ultralytics\r\n"}
+,{"stream_name":"stdout","time":9.118078716,"data":"  Downloading ultralytics-8.2.93-py3-none-any.whl.metadata (41 kB)\r\n"}
+,{"stream_name":"stdout","time":9.118109257,"data":"\u001b[?25l     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/41.9 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m41.9/41.9 kB\u001b[0m \u001b[31m2.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":9.169515188,"data":"\u001b[?25hRequirement already satisfied: numpy\u003c2.0.0,\u003e=1.23.0 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (1.26.4)\r\n"}
+,{"stream_name":"stdout","time":9.169546048,"data":"Requirement already satisfied: matplotlib\u003e=3.3.0 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (3.7.5)\r\n"}
+,{"stream_name":"stdout","time":9.169552959,"data":"Requirement already satisfied: opencv-python\u003e=4.6.0 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (4.10.0.84)\r\n"}
+,{"stream_name":"stdout","time":9.169558699,"data":"Requirement already satisfied: pillow\u003e=7.1.2 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (9.5.0)\r\n"}
+,{"stream_name":"stdout","time":9.169564227,"data":"Requirement already satisfied: pyyaml\u003e=5.3.1 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (6.0.2)\r\n"}
+,{"stream_name":"stdout","time":9.169570037,"data":"Requirement already satisfied: requests\u003e=2.23.0 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (2.32.3)\r\n"}
+,{"stream_name":"stdout","time":9.169575409,"data":"Requirement already satisfied: scipy\u003e=1.4.1 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (1.14.0)\r\n"}
+,{"stream_name":"stdout","time":9.169580695,"data":"Requirement already satisfied: torch\u003e=1.8.0 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (2.4.0)\r\n"}
+,{"stream_name":"stdout","time":9.22075319,"data":"Requirement already satisfied: torchvision\u003e=0.9.0 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (0.19.0)\r\n"}
+,{"stream_name":"stdout","time":9.220781099,"data":"Requirement already satisfied: tqdm\u003e=4.64.0 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (4.66.4)\r\n"}
+,{"stream_name":"stdout","time":9.220788442,"data":"Requirement already satisfied: psutil in /opt/conda/lib/python3.10/site-packages (from ultralytics) (5.9.3)\r\n"}
+,{"stream_name":"stdout","time":9.220793711,"data":"Requirement already satisfied: py-cpuinfo in /opt/conda/lib/python3.10/site-packages (from ultralytics) (9.0.0)\r\n"}
+,{"stream_name":"stdout","time":9.220799276,"data":"Requirement already satisfied: pandas\u003e=1.1.4 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (2.2.2)\r\n"}
+,{"stream_name":"stdout","time":9.220806066,"data":"Requirement already satisfied: seaborn\u003e=0.11.0 in /opt/conda/lib/python3.10/site-packages (from ultralytics) (0.12.2)\r\n"}
+,{"stream_name":"stdout","time":9.220810284,"data":"Collecting ultralytics-thop\u003e=2.0.0 (from ultralytics)\r\n"}
+,{"stream_name":"stdout","time":9.271905749,"data":"  Downloading ultralytics_thop-2.0.6-py3-none-any.whl.metadata (9.1 kB)\r\n"}
+,{"stream_name":"stdout","time":9.271934132,"data":"Requirement already satisfied: contourpy\u003e=1.0.1 in /opt/conda/lib/python3.10/site-packages (from matplotlib\u003e=3.3.0-\u003eultralytics) (1.2.1)\r\n"}
+,{"stream_name":"stdout","time":9.271958966,"data":"Requirement already satisfied: cycler\u003e=0.10 in /opt/conda/lib/python3.10/site-packages (from matplotlib\u003e=3.3.0-\u003eultralytics) (0.12.1)\r\n"}
+,{"stream_name":"stdout","time":9.271982,"data":"Requirement already satisfied: fonttools\u003e=4.22.0 in /opt/conda/lib/python3.10/site-packages (from matplotlib\u003e=3.3.0-\u003eultralytics) (4.53.0)\r\n"}
+,{"stream_name":"stdout","time":9.271988225,"data":"Requirement already satisfied: kiwisolver\u003e=1.0.1 in /opt/conda/lib/python3.10/site-packages (from matplotlib\u003e=3.3.0-\u003eultralytics) (1.4.5)\r\n"}
+,{"stream_name":"stdout","time":9.271993609,"data":"Requirement already satisfied: packaging\u003e=20.0 in /opt/conda/lib/python3.10/site-packages (from matplotlib\u003e=3.3.0-\u003eultralytics) (21.3)\r\n"}
+,{"stream_name":"stdout","time":9.271998795,"data":"Requirement already satisfied: pyparsing\u003e=2.3.1 in /opt/conda/lib/python3.10/site-packages (from matplotlib\u003e=3.3.0-\u003eultralytics) (3.1.2)\r\n"}
+,{"stream_name":"stdout","time":9.272004087,"data":"Requirement already satisfied: python-dateutil\u003e=2.7 in /opt/conda/lib/python3.10/site-packages (from matplotlib\u003e=3.3.0-\u003eultralytics) (2.9.0.post0)\r\n"}
+,{"stream_name":"stdout","time":9.424841065,"data":"Requirement already satisfied: pytz\u003e=2020.1 in /opt/conda/lib/python3.10/site-packages (from pandas\u003e=1.1.4-\u003eultralytics) (2024.1)\r\n"}
+,{"stream_name":"stdout","time":9.42487116,"data":"Requirement already satisfied: tzdata\u003e=2022.7 in /opt/conda/lib/python3.10/site-packages (from pandas\u003e=1.1.4-\u003eultralytics) (2024.1)\r\n"}
+,{"stream_name":"stdout","time":9.52744077,"data":"Requirement already satisfied: charset-normalizer\u003c4,\u003e=2 in /opt/conda/lib/python3.10/site-packages (from requests\u003e=2.23.0-\u003eultralytics) (3.3.2)\r\n"}
+,{"stream_name":"stdout","time":9.527472096,"data":"Requirement already satisfied: idna\u003c4,\u003e=2.5 in /opt/conda/lib/python3.10/site-packages (from requests\u003e=2.23.0-\u003eultralytics) (3.7)\r\n"}
+,{"stream_name":"stdout","time":9.527478934,"data":"Requirement already satisfied: urllib3\u003c3,\u003e=1.21.1 in /opt/conda/lib/python3.10/site-packages (from requests\u003e=2.23.0-\u003eultralytics) (1.26.18)\r\n"}
+,{"stream_name":"stdout","time":9.52748494,"data":"Requirement already satisfied: certifi\u003e=2017.4.17 in /opt/conda/lib/python3.10/site-packages (from requests\u003e=2.23.0-\u003eultralytics) (2024.7.4)\r\n"}
+,{"stream_name":"stdout","time":9.579148624,"data":"Requirement already satisfied: filelock in /opt/conda/lib/python3.10/site-packages (from torch\u003e=1.8.0-\u003eultralytics) (3.15.1)\r\n"}
+,{"stream_name":"stdout","time":9.579185569,"data":"Requirement already satisfied: typing-extensions\u003e=4.8.0 in /opt/conda/lib/python3.10/site-packages (from torch\u003e=1.8.0-\u003eultralytics) (4.12.2)\r\n"}
+,{"stream_name":"stdout","time":9.579190794,"data":"Requirement already satisfied: sympy in /opt/conda/lib/python3.10/site-packages (from torch\u003e=1.8.0-\u003eultralytics) (1.13.2)\r\n"}
+,{"stream_name":"stdout","time":9.579194982,"data":"Requirement already satisfied: networkx in /opt/conda/lib/python3.10/site-packages (from torch\u003e=1.8.0-\u003eultralytics) (3.3)\r\n"}
+,{"stream_name":"stdout","time":9.579199702,"data":"Requirement already satisfied: jinja2 in /opt/conda/lib/python3.10/site-packages (from torch\u003e=1.8.0-\u003eultralytics) (3.1.4)\r\n"}
+,{"stream_name":"stdout","time":9.5792063,"data":"Requirement already satisfied: fsspec in /opt/conda/lib/python3.10/site-packages (from torch\u003e=1.8.0-\u003eultralytics) (2024.6.1)\r\n"}
+,{"stream_name":"stdout","time":9.782472741,"data":"Requirement already satisfied: six\u003e=1.5 in /opt/conda/lib/python3.10/site-packages (from python-dateutil\u003e=2.7-\u003ematplotlib\u003e=3.3.0-\u003eultralytics) (1.16.0)\r\n"}
+,{"stream_name":"stdout","time":9.986243076000001,"data":"Requirement already satisfied: MarkupSafe\u003e=2.0 in /opt/conda/lib/python3.10/site-packages (from jinja2-\u003etorch\u003e=1.8.0-\u003eultralytics) (2.1.5)\r\n"}
+,{"stream_name":"stdout","time":10.037279431,"data":"Requirement already satisfied: mpmath\u003c1.4,\u003e=1.1.0 in /opt/conda/lib/python3.10/site-packages (from sympy-\u003etorch\u003e=1.8.0-\u003eultralytics) (1.3.0)\r\n"}
+,{"stream_name":"stdout","time":10.088448735,"data":"Downloading ultralytics-8.2.93-py3-none-any.whl (871 kB)\r\n"}
+,{"stream_name":"stdout","time":10.139922738,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/871.6 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m870.4/871.6 kB\u001b[0m \u001b[31m34.5 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m871.6/871.6 kB\u001b[0m \u001b[31m19.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":10.139975542,"data":"\u001b[?25hDownloading ultralytics_thop-2.0.6-py3-none-any.whl (26 kB)\r\n"}
+,{"stream_name":"stdout","time":20.976698634,"data":"Installing collected packages: ultralytics-thop, ultralytics\r\n"}
+,{"stream_name":"stdout","time":21.588354815,"data":"Successfully installed ultralytics-8.2.93 ultralytics-thop-2.0.6\r\n"}
+,{"stream_name":"stdout","time":28.681094299,"data":"\n"}
+,{"stream_name":"stdout","time":30.550795583,"data":"image 1/2 /kaggle/input/ad-detect-test-images/8days.sg_desktop_20240914_100303_full.png: 288x640 1 ad_rectangle, 85.0ms\n"}
+,{"stream_name":"stdout","time":30.732076535,"data":"image 2/2 /kaggle/input/ad-detect-test-images/8days.sg_mobile_20240914_100324_full.png: 640x288 1 ad_rectangle, 38.3ms\n"}
+,{"stream_name":"stdout","time":30.733864713,"data":"Speed: 7.1ms preprocess, 61.6ms inference, 119.5ms postprocess per image at shape (1, 3, 640, 288)\n"}
+,{"stream_name":"stdout","time":30.735811854,"data":"Results saved to \u001b[1mruns/detect/predict\u001b[0m\n"}
+,{"stream_name":"stdout","time":30.735833819,"data":"2 labels saved to runs/detect/predict/labels\n"}
+,{"stream_name":"stderr","time":35.393304701,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":35.798584732,"data":"[NbConvertApp] Writing 11304 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":37.437014983,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":38.308728513,"data":"[NbConvertApp] Writing 282144 bytes to __results__.html\n"}
+]
