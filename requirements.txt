@@ -2,8 +2,3 @@ streamlit
 selenium
 Pillow
 pandas
-datetime
-time
-os
-subprocess
-shutil
