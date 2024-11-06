@@ -29,6 +29,8 @@ def capture_screenshot(url):
     chrome_options = Options()
     chrome_options.add_argument("--disable-gpu")  # Disable GPU acceleration
     chrome_options.add_argument("--headless")  # Runs without a window i.e. headless mode
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
 
     # Set window sizes for both desktop (1920x1080) and mobile (360x800)
     devices = {
@@ -49,6 +51,9 @@ def capture_screenshot(url):
         chrome_options = Options()
         chrome_options.add_argument("--disable-gpu")  # Disable GPU acceleration
         chrome_options.add_argument(config["window_size"])
+        chrome_options.add_argument("--headless")  # Runs without a window i.e. headless mode
+        chrome_options.add_argument("--no-sandbox")
+        chrome_options.add_argument("--disable-dev-shm-usage")
 
         if device_type == "mobile":
             chrome_options.add_experimental_option("mobileEmulation", config["mobile_emulation"])
