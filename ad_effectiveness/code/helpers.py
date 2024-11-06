@@ -28,7 +28,7 @@ def capture_screenshot(url):
     # Initialize Chrome options
     chrome_options = Options()
     chrome_options.add_argument("--disable-gpu")  # Disable GPU acceleration
-    # chrome_options.add_argument("--headless")  # Runs without a window i.e. headless mode
+    chrome_options.add_argument("--headless")  # Runs without a window i.e. headless mode
 
     # Set window sizes for both desktop (1920x1080) and mobile (360x800)
     devices = {
